@@ -12,7 +12,7 @@ exports.pairs = function(request, response){
         response.json({pairA: pairArrA, pairB: pairArrB})
 
     }else{
-        response.json({xMessage: "format number is wrong"})
+        response.json({xMessage: "format number is wrong XXXXXXXX"})
     }       
 
 }
@@ -47,7 +47,7 @@ function getPairNumbersB(phoneNumber){
   }
 
 function checkFormatNumber(mPhone){
-        if(mPhone.length == 10){
+        if(mPhone.length === 10){
             for(i=0; i < 10; i++){       
             
                     var pair = parseInt(mPhone.substr(i, 1))
