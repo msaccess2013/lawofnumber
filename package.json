@@ -1,0 +1,22 @@
+{
+  "name": "lawofnumber",
+  "version": "1.0.0",
+  "description": "api law of number",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "deploy": "gcloud app deploy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "pearaphong",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "compression": "^1.7.1",
+    "consolidate": "^0.14.5",
+    "express": "^4.15.5",
+    "express-json": "^1.0.0",
+    "handlebars": "^4.0.10",
+    "morgan": "^1.9.0"
+  }
+}
